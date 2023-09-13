@@ -3,7 +3,7 @@ h1 {
     font-size: 80px;
     color: rgb(19, 19, 90);
     text-align: center;
-    z-index: -1;
+    z-index: 1;
 }
 
 body {
@@ -21,7 +21,7 @@ html {
 }
 
 .element {
-    z-index: 3;
+    z-index: -1;
     height: 80px;
     width: 100%;
     position: absolute;
